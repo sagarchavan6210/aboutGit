@@ -13,7 +13,7 @@ git config - - global user.email "<your email>"
 ```
 
 ##Git Commands
-> **git config:** configure Git with your username and email
+> **git config:** This command used to configure Git with your username and email
 
 ```sh
 git config - - global user.name "<your name>"
@@ -26,11 +26,11 @@ git config - - global user.email "<your email>"
 git init [repository name]
 ```
 
-> **git clone:** used to obtain a repository from an existing URL
+> **git clone:** This command used to obtain a repository from an existing URL
 ```sh
 git clone [url]
 ```
-> **git add:** adds a file to the staging area
+> **git add:** This command adds a file to the staging area
 ```sh
 git add [file]
 git add *
@@ -49,6 +49,7 @@ git diff [first branch] [second branch]
 ```
 
 > **git reset** This command undoes all the commits after the specified commit and preserves the changes locally.
+
 > **git reset –hard [commit]** This command discards all history and goes back to the specified commit.
 ```sh
 git reset –hard [commit]
